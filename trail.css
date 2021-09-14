@@ -1,0 +1,80 @@
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/img/bg.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.nav{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    background-color: dimgray;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.logo{
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 13px;
+}
+.container h1{
+    text-align: center;
+    color: red;
+    font-size: 100px;
+    padding-top: 15%;
+}
+.container p{
+    color: floralwhite;
+    font-size: 25px;
+    text-align: center;
+}
+.two{
+    background-color: white;
+}
+.about h1{
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+}
+.mephoto{
+    padding-left: 7%;
+}
+.me{
+    display: flex;
+}
+.metext{
+    padding-left: 2%;
+    flex: 1;
+    text-align: left;
+}
+.metext p{
+    font-size: 18px;
+}
+.btn{
+    background-color: crimson;
+    font-size: 17px;
+    border-style: none;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    background-color: white;
+    text-transform: uppercase;
+
+}
